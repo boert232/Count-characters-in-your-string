@@ -1,0 +1,174 @@
+def count(string):
+    
+    
+    a = string.count('a')
+    b = string.count('b')
+    c = string.count('c')
+    d = string.count('d')
+    e = string.count('e')
+    f = string.count('f')
+    g = string.count('g')
+    h = string.count('h')
+    i = string.count('i')
+    j = string.count('j')
+    k = string.count('k')
+    l = string.count('l')
+    m = string.count('m')
+    n = string.count('n')
+    o = string.count('o')
+    p = string.count('p')
+    q = string.count('q')
+    r = string.count('r')
+    s = string.count('s')
+    t = string.count('t')
+    u = string.count('u')
+    v = string.count('v')
+    w = string.count('w')
+    x = string.count('x')
+    y = string.count('y')
+    z = string.count('z')
+    
+    A = string.count('A')
+    B = string.count('B')
+    C = string.count('C')
+    D = string.count('D')
+    E = string.count('E')
+    F = string.count('F')
+    G = string.count('G')
+    H = string.count('H')
+    I = string.count('I')
+    J = string.count('J')
+    K = string.count('K')
+    L = string.count('L')
+    M = string.count('M')
+    N = string.count('N')
+    O = string.count('O')
+    P = string.count('P')
+    Q = string.count('Q')
+    R = string.count('R')
+    S = string.count('S')
+    T = string.count('T')
+    U = string.count('U')
+    V = string.count('V')
+    W = string.count('W')
+    X = string.count('X')
+    Y = string.count('Y')
+    Z = string.count('Z')
+    
+    
+    dict = {
+      "a": a,
+      "b": b,
+      "c": c,
+      "d": d,
+      "e": e,
+      "f": f,
+      "g": g,
+      "h": h,
+      "i": i,
+      "j": j,
+      "k": k,
+      "l": l,
+      "m": m,
+      "n": n,
+      "o": o,
+      "p": p,
+      "q": q,
+      "r": r,
+      "s": s,
+      "t": t,
+      "u": u,
+      "v": v,
+      "w": w,
+      "x": x,
+      "y": y,
+      "z": z,
+      "A": A,
+      "B": B,
+      "C": C,
+      "D": D,
+      "E": E,
+      "F": F,
+      "G": G,
+      "H": H,
+      "I": I,
+      "J": J,
+      "K": K,
+      "L": L,
+      "M": M,
+      "N": N,
+      "O": O,
+      "P": P,
+      "Q": Q,
+      "R": R,
+      "S": S,
+      "T": T,
+      "U": U,
+      "V": V,
+      "W": W,
+      "X": X,
+      "Y": Y,
+      "Z": Z
+        
+    }
+    
+    def test(i, var):
+        if i == 0:
+            dict.pop(var)
+        else:
+            pass
+        
+    test(a, 'a')
+    test(b, 'b')
+    test(c, 'c')
+    test(d, 'd')
+    test(e, 'e')
+    test(f, 'f')
+    test(g, 'g')
+    test(h, 'h')
+    test(i, 'i')
+    test(j, 'j')
+    test(k, 'k')
+    test(l, 'l')
+    test(m, 'm')
+    test(n, 'n')
+    test(o, 'o')
+    test(p, 'p')
+    test(q, 'q')
+    test(r, 'r')
+    test(s, 's')
+    test(t, 't')
+    test(u, 'u')
+    test(v, 'v')
+    test(w, 'w')
+    test(x, 'x')
+    test(y, 'y')
+    test(z, 'z')
+    test(A, 'A')
+    test(B, 'B')
+    test(C, 'C')
+    test(D, 'D')
+    test(E, 'E')
+    test(F, 'F')
+    test(G, 'G')
+    test(H, 'H')
+    test(I, 'I')
+    test(J, 'J')
+    test(K, 'K')
+    test(L, 'L')
+    test(M, 'M')
+    test(N, 'N')
+    test(O, 'O')
+    test(P, 'P')
+    test(Q, 'Q')
+    test(R, 'R')
+    test(S, 'S')
+    test(T, 'T')
+    test(U, 'U')
+    test(V, 'V')
+    test(W, 'W')
+    test(X, 'X')
+    test(Y, 'Y')
+    test(Z, 'Z')
+    
+    return dict
